@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────────
+# Kittchen P&L Dashboard — Python dependencies
+# ─────────────────────────────────────────────────────────────────
+# Python version : 3.10+
+# Install all    : pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# Core dashboard framework
+streamlit>=1.35.0
+
+# Data manipulation
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Excel file reading
+openpyxl>=3.1.0
+
+# Interactive visualizations
+plotly>=5.22.0
+
+# Jupyter notebook support (for analysis.ipynb)
+jupyter>=1.0.0
+nbformat>=5.10.0
+ipykernel>=6.29.0
+
+# Optional — faster Excel parsing (uncomment if large files)
+# pyarrow>=16.0.0
